@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:background="@color/background_color"
+              android:id="@+id/login_prompt_view">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/empty_icon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录可查看你购物车里面的东西"
+        android:textColor="@color/text_gray"
+        android:textSize="16dp"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/login_prompt_btn"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:background="@drawable/confirm_btn_shape"
+        android:gravity="center"
+        android:text="登录"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>

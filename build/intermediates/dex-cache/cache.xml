@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/LeeHong/Develop/AndroidDev/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/LeeHong/Projects/duduMall/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-5bc460e5594e51d9b168b29bd1df14b4a025f3c9.jar" />
+    </item>
+    <item
+        jar="/Users/LeeHong/Projects/duduMall/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/LeeHong/Projects/duduMall/app/build/intermediates/pre-dexed/debug/classes-c1e88da8b454edcffcf0fdf408ed919a784421cd.jar" />
+    </item>
+    <item
+        jar="/Users/LeeHong/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/LeeHong/Projects/duduMall/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0-8dfc1bfc2827b7110a431402c9178430d2fb96fa.jar" />
+    </item>
+    <item
+        jar="/Users/LeeHong/Projects/duduMall/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/LeeHong/Projects/duduMall/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-551615e9e42e09e4404bc3273c3e8773350ed8ff.jar" />
+    </item>
+    <item
+        jar="/Users/LeeHong/Projects/duduMall/app/libs/universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="/Users/LeeHong/Projects/duduMall/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.4-efacd15f8d77a6638aecd93d61507adcb90e43f2.jar" />
+    </item>
+    <item
+        jar="/Users/LeeHong/Projects/duduMall/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/LeeHong/Projects/duduMall/app/build/intermediates/pre-dexed/debug/classes-4afddeba987f70479cb252242b801d5ad3f2945b.jar" />
+    </item>
+
+</items>

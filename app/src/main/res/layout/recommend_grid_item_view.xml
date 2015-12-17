@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/recommend_grid_item"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="8dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:background="@drawable/product_item_selector"
+                >
+
+    <com.example.fwqi.dudu.widget.ProductImageView
+        android:id="@+id/recommend_product_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/recommend_product_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recommend_product_image"
+        android:layout_marginTop="11dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="陕西红富士苹果"
+        android:textSize="13dp"
+        android:textColor="#2d353a"/>
+
+    <TextView
+        android:id="@+id/recommend_product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recommend_product_description"
+        android:layout_marginTop="10dp"
+        android:text="$10"
+        android:textColor="@color/orange"/>
+
+    <ImageView
+        android:id="@+id/recommend_product_cart"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/recommend_product_description"
+        android:layout_marginRight="3dp"
+        android:src="@drawable/product_icon_cart"/>
+
+    <ImageView
+        android:id="@+id/recommend_product_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/product_icon_status"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/recommend_purchase_count_txt"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/product_count_shape"
+        android:text="1"
+        android:textColor="@color/orange"
+        android:gravity="center"
+        android:visibility="visible"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"/>
+</RelativeLayout>

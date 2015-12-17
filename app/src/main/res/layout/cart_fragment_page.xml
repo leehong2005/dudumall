@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context="com.example.fwqi.dudu.page.CartFragmentPage">
+
+    <RelativeLayout
+        android:id="@+id/confirm_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/paid_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:text="实付金额"
+            android:textColor="@color/text_gray"
+            android:textSize="16dp"
+            />
+
+        <TextView
+            android:id="@+id/paid_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/paid_text"
+            android:text="$0.00"
+            android:textColor="@color/orange"
+            android:textSize="16dp"
+            />
+
+        <Button
+            android:id="@+id/confirm_btn"
+            android:layout_width="79dp"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/confirm_btn_shape"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/confirm_separator_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/list_separator_line_color"
+        android:layout_above="@id/confirm_layout"
+        />
+    <ListView
+        android:id="@+id/cart_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/confirm_separator_line"
+        android:divider="@null"/>
+</RelativeLayout>

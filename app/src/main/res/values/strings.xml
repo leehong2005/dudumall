@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DuDu</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_tab">DuDu</string>
+
+    <string name="recommend_fragment_page">This is recommend fragment page</string>
+    <string name="cart_fragment_page">This is cart fragment page</string>
+
+</resources>
