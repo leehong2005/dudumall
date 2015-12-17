@@ -13,6 +13,8 @@ import com.example.fwqi.dudu.widget.LoadingView;
 
 /**
  * Created by leehong on 2015/10/15.
+ *
+ * 添加注释
  */
 public class ActionBarActivity extends BaseActivity {
     private ActionBar actionBar = null;
